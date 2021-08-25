@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ejercicio obligatorio</title>
+<style>
+#login_form {
+width:90%;
+background-color: #bdd2ff;
+border: 1px solid white;
+margin: 50px auto 0;
+padding: 1em;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+text-align: center;
+}
+
+input[type=text], input[type=password] {
+text-align:center;
+display: block;
+margin: 0 auto 1em auto;
+width: 90%; /*280px;*/
+border: 1px solid #818181;
+
+padding: 5px;
+}
+
+input[type=submit] , form a {
+border: none;
+margin-right: auto;
+margin-left: auto;
+padding: 6px;
+text-decoration: none;
+font-size: 12px;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+background: #cfdeff;
+color: black;
+box-shadow: 0 1px 0 white;
+-moz-box-shadow: 0 1px 0 white;
+-webkit-box-shadow: 0 1px 0 white;
+}
+
+input[type=submit]:hover, form a:hover {
+background: #007cc2;
+cursor: pointer;
+}
+</style>
+</head>
+<body>
+<h1>Ingreso al sistema</h1>
+<form id="login_form" action="submit">
+DNI: <input type="text" name="dni" id="dni"><br>
+Usuario: <input type="text" name="user" id="user"><br>
+Clave: <input type="password" name="password" id="password"><br>
+<input type="submit" value="Ingresar">
+</form>
+
+</body>
+</html>
